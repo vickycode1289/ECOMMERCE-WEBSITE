@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: urbanist;
+}
+
+body{
+  font-family: sans-serif;
+  /* padding: 0 50px; */
+}
+
+.logo a{
+  color: black;
+}
+
+nav{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: white;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(224, 224, 224);
+  z-index: 100;
+  margin-bottom: 90px;
+  
+
+}
+
+.middle-section ul{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 3rem;
+  list-style: none;
+}
+
+.middle-section ul a{
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+.middle-section ul .dropdown{
+  position: relative;
+}
+
+.wallet-btn{
+  background-color: #7b5bd0;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+ul .dropdown .dropdown-menu{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-radius: 10px;
+  list-style: none;
+  box-shadow: rgba(99, 99, 99, 09.2) 0px 2px 8px 0px;
+  padding: 15px;
+  width: 100px;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.content-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.tag{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.tag i{
+  margin-right: 10px;
+  color: rgb(201, 127, 16);
+}
+#right-arrow{
+  color: white;
+  margin-left: 10px;
+}
+
+.hero h1{
+  font-size: 50px;
+  text-align: center;
+  line-height: 1.4;
+  font-family: arial;
+  font-weight: 600;
+  margin-top: 40px;
+  color: rgb(41, 36, 36);
+}
+.subtext{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.cta-btn{
+  background-color: black;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 16px;
+}

@@ -1,0 +1,52 @@
+.image-container-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.brand-image{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.pictures-brand{
+  width: 100%;
+  border-radius: 8px;
+}
+
+.image-stat-view{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.image-title{
+  font-size: 18px;
+  color:  rgb(17, 16, 16);
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+
+.image-statistics{
+  color: rgb(107, 99, 99);
+  cursor: pointer;
+}
+.image-percentage{
+  color: rgb(16, 214, 16);
+  cursor: pointer;
+}
+
+.image-content:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  margin-right: 10px;
+}
